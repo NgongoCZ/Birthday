@@ -63,6 +63,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return this.name + ", age " + this.age + " years";
+        return this.name + ", age " + this.age + " years" + ", Date of birthday : " + birthday;
     }
 }
